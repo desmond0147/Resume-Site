@@ -222,3 +222,28 @@ footer {
 .three-reasons-heading {
     margin-bottom: 15px;
 }
+
+/*----------------------------------Personal Info */
+.personal-info-item {
+    margin-bottom: 20px;
+    display: flex; /* Use flexbox to arrange items side by side */
+    align-items: flex-start; /* Align items at the top */
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.personal-info-item .value {
+    width: 70%;
+}
+
+.personal-info-item .key p {
+    margin: 0;
+    font-weight: bold; /* Make the labels bold */
+}
+
+.personal-info-item .value p {
+    margin: 0;
+}
